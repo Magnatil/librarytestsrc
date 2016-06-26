@@ -24,7 +24,7 @@ public class UserGuiSelenideTest {
     //Last Name selector: #gwt-uid-9
     //Telephone selector: #gwt-uid-11
     //E-mail selector: #gwt-uid-13
-    @Test
+    //@Test
     public void CreateUserTest1() {
         UserPage userpage = new UserPage();
         userpage.OpenWebBrowser();
