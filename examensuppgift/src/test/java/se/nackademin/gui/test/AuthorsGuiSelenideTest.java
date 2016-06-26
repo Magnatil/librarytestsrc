@@ -16,7 +16,7 @@ import static org.junit.Assert.*;
  */
 public class AuthorsGuiSelenideTest {
     
-    @Test
+    //@Test
     public void SearchAuthorsTest1() {
         SearchAuthorPage searchauthor = new SearchAuthorPage();
         searchauthor.OpenWebBrowser();
@@ -31,7 +31,7 @@ public class AuthorsGuiSelenideTest {
         assertEquals("Inserting 'Stephen Baxter' into the contains for data should return 'true'",true,data.contains("Stephen Baxter"));
         
     }
-    @Test
+    //@Test
     public void SearchAuthorsTest2() {
         SearchAuthorPage searchauthor = new SearchAuthorPage();
         searchauthor.OpenWebBrowser();
@@ -46,7 +46,7 @@ public class AuthorsGuiSelenideTest {
         searchauthor.WriteLog("Making the assertion(s).", true);
         assertEquals("Inserting 'Stephen Baxter' into the contains for data should return 'true'",true,data.contains("Stephen Baxter"));
     }
-    @Test
+    //@Test
     public void SearchAuthorsTest3() {
         SearchAuthorPage searchauthor = new SearchAuthorPage();
         searchauthor.OpenWebBrowser();
@@ -61,7 +61,7 @@ public class AuthorsGuiSelenideTest {
         searchauthor.WriteLog("Making the assertion(s).", true);
         assertEquals("Inserting 'Great Britain' into the contains for data should return 'true'",true,data.contains("Great Britain"));
     }
-    @Test
+    //@Test
     public void SearchAuthorAndClickOnAuthorTest() {
         SearchAuthorPage searchauthor = new SearchAuthorPage();
         searchauthor.OpenWebBrowser();
@@ -78,7 +78,7 @@ public class AuthorsGuiSelenideTest {
         assertEquals("Inserting 'Great Britain' into the contains for data should return 'true'",true,data.contains("Great Britain"));
         assertEquals("Inserting 'Sri Lankabhimanya Sir Arthur Charles Clarke' into the contains for data should return 'true'",true,data.contains("Sri Lankabhimanya Sir Arthur Charles Clarke"));
     }
-    @Test
+    //@Test
     public void SearchAuthorAndClickOnAuthorAndGetTableOfBooksFromAuthorTest() {
         SearchAuthorPage searchauthor = new SearchAuthorPage();
         searchauthor.OpenWebBrowser();
@@ -95,7 +95,7 @@ public class AuthorsGuiSelenideTest {
         
     }
     
-    @Test(expected = ElementNotFound.class)
+    //@Test(expected = ElementNotFound.class)
     public void SearchAuthorWithInvalidData() {
         SearchAuthorPage searchauthor = new SearchAuthorPage();
         searchauthor.OpenWebBrowser();

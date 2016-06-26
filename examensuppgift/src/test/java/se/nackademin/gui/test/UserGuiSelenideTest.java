@@ -42,7 +42,7 @@ public class UserGuiSelenideTest {
         
         
     }
-    @Test
+    //@Test
     public void CreateUserTest2() {
         UserPage userpage = new UserPage();
         userpage.OpenWebBrowser();
@@ -58,7 +58,7 @@ public class UserGuiSelenideTest {
         String data = userpage.getSiteTitle();
         assertEquals("If the user was created successfully, inserting 'Sign in' into data contains should return 'true'",true,data.contains("Sign in"));
     }
-    @Test
+    //@Test
     public void CreateUserTest3() {
         UserPage userpage = new UserPage();
         userpage.OpenWebBrowser();
@@ -75,7 +75,7 @@ public class UserGuiSelenideTest {
         String data = userpage.getSiteTitle();
         assertEquals("If the user was created successfully, inserting 'Sign in' into data contains should return 'true'",true,data.contains("Sign in"));
     }
-    @Test
+    //@Test
     public void CreateUserTest4() {
         UserPage userpage = new UserPage();
         userpage.OpenWebBrowser();
@@ -95,7 +95,7 @@ public class UserGuiSelenideTest {
         assertEquals("If the user was created successfully, inserting 'Sign in' into data contains should return 'true'",true,data.contains("Sign in"));
     }
     
-    @Test
+    //@Test
     public void CreateUserComplete() {
         UserPage userpage = new UserPage();
         userpage.OpenWebBrowser();
@@ -151,7 +151,7 @@ public class UserGuiSelenideTest {
         assertEquals("Inserting '"+displayname+"' into data contains should return 'true'",true,data.contains(displayname));
         userpage.clickSignOutLink();
     }
-    @Test
+    //@Test
     public void CreateUserAndLoginAndClickMyProfile() {
         UserPage userpage = new UserPage();
         userpage.OpenWebBrowser();
@@ -195,7 +195,7 @@ public class UserGuiSelenideTest {
         userpage.clickSignOutLink();
     
     }
-    @Test
+    //@Test
     public void CreateUserAndLoginClickMyProfileThenEditProfile() {
         UserPage userpage = new UserPage();
         userpage.OpenWebBrowser();
@@ -337,7 +337,7 @@ public class UserGuiSelenideTest {
         
         }
         
-        @Test
+        //@Test
         public void CreateUserAndLoginAndSignOut() {
          UserPage userpage = new UserPage();
         userpage.OpenWebBrowser();
