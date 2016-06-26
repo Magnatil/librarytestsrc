@@ -24,7 +24,7 @@ import org.junit.rules.ExpectedException;
  */
 public class BooksGuiSelenideTest {
     
-    @Test
+    //@Test
     public void SearchBookTest1() {
         GuiOperations operations = new GuiOperations();
         operations.WriteLog("============================", false);
@@ -52,7 +52,7 @@ public class BooksGuiSelenideTest {
         operations.WriteLog("============================", false);
         
     }
-    @Test
+    //@Test
     public void SearchBookTest2() {
         GuiOperations operations = new GuiOperations();
         operations.WriteLog("============================", false);
