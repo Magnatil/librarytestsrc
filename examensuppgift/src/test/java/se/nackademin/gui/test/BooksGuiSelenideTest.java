@@ -84,7 +84,7 @@ public class BooksGuiSelenideTest {
         
         
     }
-    @Test
+    //@Test
     public void SearchBookTest3() {
         GuiOperations operations = new GuiOperations();
         operations.WriteLog("============================", false);
