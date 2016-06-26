@@ -111,7 +111,7 @@ public class BooksGuiSelenideTest {
         operations.WriteLog("============================", false);
         
     }
-    @Test
+    //@Test
     public void SearchBookTest4DateVariation1() {
         GuiOperations operations = new GuiOperations();
         operations.WriteLog("=======================================", false);
@@ -138,7 +138,7 @@ public class BooksGuiSelenideTest {
         operations.WriteLog("=========================================", false);
         
     }
-    @Test
+    //@Test
     public void SearchBookTest4DateVariation2() {
         GuiOperations operations = new GuiOperations();
         operations.WriteLog("=======================================", false);
@@ -284,7 +284,7 @@ public class BooksGuiSelenideTest {
         
         
     }
-    @Test
+    //@Test
     public void SearchBookClickBookThenAuthorAndGetAuthorsBooksTest() {
         GuiOperations operations = new GuiOperations();
         operations.WriteLog("===========================================================", false);
@@ -323,7 +323,7 @@ public class BooksGuiSelenideTest {
     //Expecting nothing to show up in the results if we use invalid searches.
     //Since the system does not report "errors" on the website, we look for the exception
     //ElementNotFound instead. This test should pass.
-    @Test(expected = ElementNotFound.class)
+    //@Test(expected = ElementNotFound.class)
     public void SearchBookWithInvalidDataTest1() {
         GuiOperations operations = new GuiOperations();
         operations.WriteLog("=======================================", false);
@@ -349,7 +349,7 @@ public class BooksGuiSelenideTest {
         operations.WriteLog("=========================================", false);
         
     }
-    @Test(expected = ElementNotFound.class)
+    //@Test(expected = ElementNotFound.class)
     public void SearchBookWithInvalidDataTest2() {
         GuiOperations operations = new GuiOperations();
         operations.WriteLog("=======================================", false);
