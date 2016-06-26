@@ -252,7 +252,7 @@ public class BooksGuiSelenideTest {
         
         
     }
-    @Test //Fett svårt att göra vettiga namn. :/
+    //@Test //Fett svårt att göra vettiga namn. :/
     public void SearchBookClickBookThenAuthorAndClickAuthorTest() {
         GuiOperations operations = new GuiOperations();
         operations.WriteLog("=======================================================", false);
