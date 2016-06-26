@@ -165,7 +165,7 @@ public class BooksGuiSelenideTest {
         operations.WriteLog("SearchBookTest4DateVariation2 Finished", false);
         operations.WriteLog("=========================================", false);
     }
-    @Test
+    //@Test
     public void SearchBookAndClickBookTest() {
         GuiOperations operations = new GuiOperations();
         operations.WriteLog("===================================", false);
@@ -194,7 +194,7 @@ public class BooksGuiSelenideTest {
         operations.WriteLog("SearchBookAndClickBookTest Finished", false);
         operations.WriteLog("======================================", false);
     }
-    @Test
+    //@Test
     public void SearchBookAndClickBookAndAuthorTest() {
         GuiOperations operations = new GuiOperations();
         operations.WriteLog("============================================", false);
