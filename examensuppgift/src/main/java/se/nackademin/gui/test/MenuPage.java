@@ -27,31 +27,31 @@ public class MenuPage extends GuiOperations {
     public void clickBrowseBooksLink() {
         this.WriteLog("Clicking on the link to Browse/Search for books.", true);
         browsebooksLink.click();
-        sleep(2000);
+        sleep(4000);
     }
     
     public void clickBrowseAuthorsLink() {
         this.WriteLog("Clicking on the link to Browse/Search for authors.", true);
         browseauthorsLink.click();
-        sleep(2000);
+        sleep(4000);
     }
     
     public void clickNewUserLink() {
         this.WriteLog("Clicking on the link to add users.", true);
         newuserLink.click();
-        sleep(2000);
+        sleep(4000);
     }
     
     public void clickSignInLink() {
         this.WriteLog("Clicking on the link to login a user.", true);
         signinLink.click();
-        sleep(2000);
+        sleep(4000);
     }
     
     public void clickSignOutLink() {
         this.WriteLog("Clicking on the link to log out a user.", true);
         signoutLink.click();
-        sleep(3000);
+        sleep(4000);
     }
     
     public void setTextInputValue(String descriptor, String value,String elementselector) {
@@ -75,7 +75,7 @@ public class MenuPage extends GuiOperations {
         SelenideElement element = $(elementselector);
         this.WriteLog("Clicking on the element ("+elementselector+") and sleeping for 1000 ms", true);
         element.click();
-        sleep(3000);
+        sleep(4000);
     }
     
     

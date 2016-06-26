@@ -31,7 +31,7 @@ public class AuthorsGuiSelenideTest {
         assertEquals("Inserting 'Stephen Baxter' into the contains for data should return 'true'",true,data.contains("Stephen Baxter"));
         
     }
-    //@Test
+    @Test
     public void SearchAuthorsTest2() {
         SearchAuthorPage searchauthor = new SearchAuthorPage();
         searchauthor.OpenWebBrowser();
